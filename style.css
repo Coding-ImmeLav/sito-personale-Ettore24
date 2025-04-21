@@ -8,27 +8,34 @@ body {
 }
 
 header {
-    background-color:lightseagreen;
+    background-color:lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
     padding-left: 2%;
     padding-right: 2%;
-    color: white;
+    color: black;
 }
 
 .logo {
-    color:white;
+    color:black;
 }
 
 .hero {
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+        background-image: url("./immagine/scuola.jpg");
+        /* per far si che l'immagine si veda devo impostare una altezza alla sezione  */
+        height: 92vh;
+        /* devo anche impostare che l'immagine occupi tutto lo spazio senza ripetersi  */
+        background-repeat: no-repeat; /* in questo modo elimino la parte che si ripete  */
+        background-size: cover; /* in questo modo occupa tutto lo spazio  */
+        /* metto la scritta in centro  */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
 }
 
 .boldonse {
