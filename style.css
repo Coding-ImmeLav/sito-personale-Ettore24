@@ -35,7 +35,9 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: white;
+        
+        color: black;
+        opacity: 65%;
 }
 
 .boldonse {
