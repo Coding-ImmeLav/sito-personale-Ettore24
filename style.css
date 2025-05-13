@@ -8,18 +8,18 @@ body {
 }
 
 header {
-    background-color:lightblue;
+    background-color:black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
     padding-left: 2%;
     padding-right: 2%;
-    color: black;
+    color: white;
 }
 
 .logo {
-    color:black;
+    color:white;
 }
 
 .logo2 {
@@ -40,8 +40,12 @@ header {
         align-items: center;
         text-align: center;
         
-        color: black;
+        color: white;
         opacity: 65%;
+}
+
+.evidenziato {
+    background-color: black;
 }
 
 .bebas-neue-regular { 
