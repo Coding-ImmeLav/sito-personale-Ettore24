@@ -22,6 +22,10 @@ header {
     color:black;
 }
 
+.logo2 {
+    color: white;
+}
+
 .hero {
         background-image: url("./immagine/scuola.jpg");
         /* per far si che l'immagine si veda devo impostare una altezza alla sezione  */
