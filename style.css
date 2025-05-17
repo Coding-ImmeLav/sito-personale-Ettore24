@@ -125,7 +125,7 @@ footer > div {
     flex-wrap: wrap;
     justify-content: center; /* centro i rettangoli nella pagina */
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(168, 202, 185);
 }
 
 .contenitore {
