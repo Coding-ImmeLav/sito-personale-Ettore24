@@ -125,11 +125,12 @@ footer > div {
     flex-wrap: wrap;
     justify-content: center; /* centro i rettangoli nella pagina */
     align-items: center;
+    background-color: lightblue;
 }
 
 .contenitore {
     width: 40%;
-    background-color: lightskyblue;
+    background-color: transparent;
     height: 35%;
     margin: 30px;
     display: flex;
@@ -139,7 +140,7 @@ footer > div {
 
 /* animazione quando passo con il mouse sui contenitori  */
 .contenitore:hover {
-    background-color: lightsteelblue;
+    background-color: transparent;
     transition: 0.3s;
 }
 
